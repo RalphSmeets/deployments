@@ -1,0 +1,4 @@
+chart:
+  repo_url: https://ralphsmeets.github.io/helm-charts
+  name: mijn-kia
+  version: 1.0.0

@@ -1,0 +1,14 @@
+image:
+  pullPolicy: IfNotPresent
+
+imagePullSecrets:
+  - name: regcred
+
+mijnKia:
+  loginEmail: <path:/k8s-provisioning/data/pro/applications/mijn-kia#mijnKiaLoginEmail>
+  loginPassword: <path:/k8s-provisioning/data/pro/applications/mijn-kia#mijnKiaLoginPassword>
+  preferredVehicleId: <path:/k8s-provisioning/data/pro/applications/mijn-kia#mijnKiaPreferredVehicleId>
+
+aBetterRoutePlanner:
+  token: <path:/k8s-provisioning/data/pro/applications/mijn-kia#AbrpToken>
+  carModel: <path:/k8s-provisioning/data/pro/applications/mijn-kia#AbrpCarModel>
