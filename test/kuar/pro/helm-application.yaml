@@ -1,0 +1,5 @@
+chart:
+  repo_url: https://ralphsmeets.github.io/my-helm-charts
+  name: kuard
+  version: 1.0.0
+  
